@@ -4,4 +4,4 @@ A library of skills for use with coding agents I have either written myself or u
 
 See directory /skills or browse in by-category/
 
-Skills registry shows complete list - not all added for now.
+Skills registry shows more complete list - not all added for now.
