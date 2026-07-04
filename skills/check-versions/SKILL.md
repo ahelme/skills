@@ -73,7 +73,7 @@ apt-cache policy <package> 2>/dev/null | grep Candidate
 curl -s "https://hub.docker.com/v2/repositories/library/<image>/tags/?page_size=10&name=<tag-pattern>" | python3 -c "import sys,json; [print(t['name']) for t in json.load(sys.stdin)['results'][:5]]"
 ```
 
-### 3. Present comparison table
+### 3. Present a comparison table to user
 
 ```
 | Package    | Pinned  | Latest Stable | Released   | Gap              |
