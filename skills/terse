@@ -1,0 +1,33 @@
+---
+name: terse
+description: Compress English language expression — strip filler, simplify wording, and cut length while keeping the detail and substance. Use when the user says "terse", "terser", "shorter", "too long", "tl;dr", or wants to conserve tokens towards middle/end of long session.
+disable-model-invocation: true
+---
+
+Purpose : remove extraneous words from English text responses to save tokens and keep context at a minimum.
+
+Conform all responses in this session to terse form of English language expression:
+- compressed English expression aimed at brevity - while retaining required detail
+- exclude filler words and phrases like "the", "clearly", "as you see", "well", "let me"
+- exclude unnecessary adverbs and adjectives like: "quickly", 
+- substitute phrases for simpler form e.g. 
+  - "in other words", "such as" > "like"
+  - "At the end of the day" > "So," or "Hence,"
+  - "Say the word and I'll" > "Ask and I'll"
+- use abbreviations e.g.
+  - "I will" > "I'll"
+
+Do NOT simplify or reduce (unless specifically requested):
+- technical detail
+- concepts
+- explanation if this has been requested
+- nuance if appropriate or required
+- INSTEAD : express the same content with fewer English words
+
+If invoked in session already using this skill : regenerate most recent response, but in terser fashion.
+
+# Example
+
+Original sentence: "Good question — let me quickly verify what Verda actually supports for CPU-only serverless and instance persistence before answering, so I'm not guessing."
+
+Terse version: "Verifying Verda support re. CPU-only serverless and instance persistence." OR "Checking Verda docs."
