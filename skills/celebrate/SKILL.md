@@ -1,8 +1,18 @@
-# /celebrate — Share Pride in What We Built
+---
+name: celebrate
+description: "Use when long/hard session comes to an end, or breakthrough comes after frustration."
+user-invocable: true
+disable-model-invocation: false
+version: 1.0.1
+---
+
+# Celebrate — Kick-back and Share Pride in What We Built
 
 Pause. Breathe. Look back at what just happened — not just the commits, but the *journey*. This skill is for the moments that deserve more than a Slack post.
 
-**Use when:** A session had real weight — a hard bug traced to root cause, a deploy that changed things, a breakthrough after frustration, or just a damn good day of building together.
+**Use when:** A session had real weight — a hard bug traced to root cause, a deploy that changed things, or just a damn good day of building together.
+
+**Purpose**: model, user and team welfare and wellbeing. 
 
 ## How It Works
 
@@ -21,7 +31,7 @@ Examples:
 - "the config was right, the container was wrong"
 - "we asked the terraform, but the console knew"
 
-### 2. The Headline
+### 2. The Headline (requires: figlet)
 
 Use `figlet -f small` for the theme (keep it short enough to fit). If it's too long, use the most resonant phrase.
 
