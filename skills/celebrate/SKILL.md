@@ -1,9 +1,9 @@
 ---
 name: celebrate
-description: "Use when long/hard session comes to an end, or breakthrough comes after frustration."
+description: "Use when: long/hard session comes to an end, or breakthrough comes after frustration."
 user-invocable: true
 disable-model-invocation: false
-version: 1.0.1
+version: 1.0.2
 ---
 
 # Celebrate — Kick-back and Share Pride in What We Built
